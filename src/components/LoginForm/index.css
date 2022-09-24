@@ -1,0 +1,113 @@
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  max-width: 1110px;
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .login-form-container {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.website-form-logo {
+  width: 250px;
+  margin-bottom: 40px;
+}
+.website-login-image {
+  width: 400px;
+}
+@media screen and (min-width: 768px) {
+  .website-form-logo {
+    display: none;
+  }
+}
+.website-logo-desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .website-logo-desktop {
+    display: block;
+    width: 180px;
+  }
+}
+.form-container {
+  width: 100%;
+  max-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .form-container {
+    background-color: #ffffff;
+    border-radius: 3px;
+    height: 100%;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 16px 0px #bfbfbf;
+    margin-left: 40px;
+  }
+}
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.input-label {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+}
+.username-input-filed {
+  height: 40px;
+  font-size: 14px;
+  border: 1px solid #d7dfe9;
+  background-color: #57585a;
+  color: #64748b;
+  border-radius: 3px;
+  padding: 8px 16px 8px 16px;
+  margin-top: 5px;
+}
+.password-input-filed {
+  height: 40px;
+  font-size: 14px;
+  border: 1px solid #d7dfe9;
+  background-color: #57585a;
+  color: #64748b;
+  border-radius: 3px;
+  padding: 8px 16px 8px 16px;
+  margin-top: 5px;
+}
+.button {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 14px;
+  height: 40px;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+.error-msg {
+  color: #ff0b37;
+  font-size: 15px;
+  font-family: 'Roboto';
+  text-align: start;
+}

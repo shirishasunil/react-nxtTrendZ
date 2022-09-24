@@ -1,0 +1,112 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nav-logo-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .nav-logo-btn-container {
+    display: none;
+  }
+}
+.nav-content {
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  max-width: 1110px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 15px;
+}
+.website-logo {
+  width: 200px;
+}
+.logout-btn {
+  border: none;
+  cursor: pointer;
+  outline: none;
+  font-size: 14px;
+  background-color: transparent;
+}
+.nav-logout-logo {
+  width: 50px;
+}
+.header-desktop-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1110px;
+}
+@media screen and (min-width: 520px) {
+  .header-desktop-container {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header-desktop-container {
+    display: block;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 1110px;
+  }
+}
+.header-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+.list-item {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #475569;
+  margin-left: 10px;
+}
+.desktop-button {
+  background-color: #0b69ff;
+  font-family: 'Roboto';
+  color: #ffffff;
+  font-size: 12px;
+  border-radius: 5px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-left: 20px;
+  padding: 8px 16px;
+}
+.menu-mobile-container {
+  background-color: #e6f6ff;
+}
+@media screen and (min-width: 768px) {
+  .menu-mobile-container {
+    display: none;
+  }
+}
+.menu-list-mobile-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+}
+.list-item-mobile {
+  cursor: pointer;
+}
+.menu-logo-mobile {
+  width: 32px;
+}
